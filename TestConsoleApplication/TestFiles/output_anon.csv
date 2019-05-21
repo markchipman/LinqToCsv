@@ -1,4 +1,4 @@
-﻿Markup,InShops,ProductName
-39150.0,2/01/1985 12:00:00 AM,mouse trap
-270.060,23/05/2008 12:00:00 AM,moonbuggy
-6004.0,29/02/2004 12:00:00 AM,dog house
+﻿ProductName,InShops,Markup
+mouse trap,02/01/1985 00:00:00,39150.0
+moonbuggy,23/05/2008 00:00:00,270.060
+dog house,29/02/2004 00:00:00,6004.0
