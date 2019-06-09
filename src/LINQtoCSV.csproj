@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Version>1.7.0.0</Version>
+    <Company>Matt Perdeck</Company>
+    <Authors>Matt Perdeck</Authors>
+    <Description>Popular, easy to use library to read and write CSV and tab delimited files. Supports data fields containing commas and line breaks. Supports different character encodings, separator characters and date and number formats. Robust error handling lets you quickly fix problems in large input files.</Description>
+    <Copyright>2018</Copyright>
+    <PackageProjectUrl>http://www.codeproject.com/Articles/25133/LINQ-to-CSV-library</PackageProjectUrl>
+     <PackageTags>CSV LINQ tab delimited</PackageTags>
+    <PackageIconUrl>http://nuget.org/Media/Default/Packages/LinqToCsv/1.0.0.0/logo.jpg</PackageIconUrl>
+    <RepositoryUrl>https://github.com/mperdeck/LINQtoCSV</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Threenine.LinqToCsv</PackageId>
+    <PackageReleaseNotes>This is a port to .Net Core NetStandard 2.0 of the LInqToCSV library of Matt Perdeck.  We do not make any claim on this work </PackageReleaseNotes>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+</Project>

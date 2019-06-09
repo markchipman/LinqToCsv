@@ -28,7 +28,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83f4fa68-0d7a-4835-8764-47929de8a01b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/SampleCode/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleCode/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CsvColumnAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CsvContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CsvInputFormatAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CsvMetaData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CsvOutputFormatAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CsvStream.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataRow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataRowItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FieldMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IDataRow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LINQtoCSV.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/LinqtoCsv.Tests/LinqtoCsv.Tests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/LinqtoCsv.Tests/UnitTest1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/ProductData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/ProductData_DuplicateIndices.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/ProductData_MissingFieldIndex.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/TestConsole.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/TestDataRow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/TestFiles/badfile_unknownname.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/TestFiles/badfile_us_dataerrors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/TestFiles/goodfile_nl.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/TestFiles/goodfile_us.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/TestFiles/output_anon.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/TestFiles/output_bad.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/TestFiles/output_names_nl.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/TestFiles/output_newdata_names_nl.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/TestFiles/output_nonames_us.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestConsole/Utils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/CsvContextTests/ReadTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/CsvContextTests/WriteTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/IAssertable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/LINQtoCSV.Tests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Person.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/ProductData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/ProductDataSpecificFieldIndex.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/ProductData_DuplicateIndices.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/ProductData_MissingFieldIndex.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Test.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/TestDataRow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/Utils.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +176,7 @@
         <entry file="file://$PROJECT_DIR$/tests/unit/IAssertable.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
-              <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
               <folding>
                 <marker date="1560027302849" expanded="true" signature="25:112" ph="{...}" />
                 <marker date="1560027302849" expanded="true" signature="63:110" ph="{...}" />
@@ -376,8 +417,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/TestConsole/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3297">
-              <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
+            <state relative-caret-position="331">
+              <caret line="412" lean-forward="true" selection-start-line="412" selection-end-line="412" />
               <folding>
                 <marker date="1560108256999" expanded="true" signature="6:119" ph="..." />
                 <marker date="1560108256999" expanded="true" signature="142:15162" ph="{...}" />
@@ -453,7 +494,7 @@
         <entry file="file://$PROJECT_DIR$/tests/TestConsole/TestConsole.csproj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -472,9 +513,7 @@
     <setting file="file://$PROJECT_DIR$/tests/unit/CsvContextTests/WriteTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tests/unit/ProductData_DuplicateIndices.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tests/unit/ProductData_MissingFieldIndex.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SampleCode/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tests/unit/Utils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SampleCode/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tests/unit/Person.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tests/unit/Test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tests/LinqtoCsv.Tests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -485,7 +524,7 @@
     <setting file="file://$PROJECT_DIR$/tests/TestConsole/ProductData_DuplicateIndices.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tests/TestConsole/ProductData_MissingFieldIndex.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CsvStream.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/tests/TestConsole/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tests/TestConsole/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tests/TestConsole/Utils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/FieldMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tests/TestConsole/ProductData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -542,7 +581,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
+    <navigator currentView="FileSystemExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -567,55 +606,12 @@
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="LINQtoCSV" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="samples" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="LINQtoCSV" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="samples" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="SampleCode" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="LINQtoCSV" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="samples" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="TestConsole" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="LINQtoCSV" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="samples" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="TestConsole" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="TestFiles" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="LINQtoCSV" type="24d0babc:SolutionExplorerModelNode" />
               <item name="src" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="LINQtoCSV" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="LINQtoCSV" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="LINQtoCSV" type="24d0babc:SolutionExplorerModelNode" />
               <item name="tests" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="LINQtoCSV" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="tests" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="LINQtoCSV.Tests" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="LINQtoCSV" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="tests" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="LINQtoCSV.Tests" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="CsvContextTests" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -684,7 +680,7 @@
       <workItem from="1558436814472" duration="745000" />
       <workItem from="1560014801454" duration="1231000" />
       <workItem from="1560016081712" duration="201000" />
-      <workItem from="1560016523680" duration="10239000" />
+      <workItem from="1560016523680" duration="10594000" />
     </task>
     <task id="LOCAL-00001" summary="Start of refactor process">
       <created>1560069358929</created>
@@ -693,11 +689,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560069358929</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Start of refactor process">
+      <created>1560108814516</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560108814517</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13455000" />
+    <option name="totallyTimeSpent" value="13810000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -710,7 +713,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="27" width="1870" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2609649" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -718,7 +720,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39977852" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -732,7 +734,7 @@
       <window_info anchor="bottom" id="TeamCity" order="14" />
       <window_info anchor="bottom" id="Terminal" order="15" weight="0.3281768" />
       <window_info anchor="bottom" id="Event Log" order="16" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="17" weight="0.32890365" />
+      <window_info anchor="bottom" id="Build" order="17" visible="true" weight="0.32890365" />
       <window_info anchor="bottom" id="ANTLR Preview" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -944,12 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <marker date="1560014339273" expanded="false" signature="6:30" ph="..." />
-            <marker date="1560014339273" expanded="true" signature="52:816" ph="{...}" />
-            <marker date="1560014339273" expanded="true" signature="55:196" ph="/* Because the fields in this type are used only indirectly, the compiler ... */" />
-            <marker date="1560014339273" expanded="true" signature="256:772" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1054,29 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-          <folding>
-            <marker date="1560108410972" expanded="false" signature="6:129" ph="..." />
-            <marker date="1560108410972" expanded="true" signature="151:4776" ph="{...}" />
-            <marker date="1560108410972" expanded="true" signature="171:4774" ph="{...}" />
-            <marker date="1560108410972" expanded="true" signature="217:2575" ph="{...}" />
-            <marker date="1560108410972" expanded="true" signature="240:322" ph="/* NOT SHOWN IN EXAMPLE IN ARTICLE ... */" />
-            <marker date="1560108410972" expanded="true" signature="337:393" ph="/* ------------------ ... */" />
-            <marker date="1560108410972" expanded="true" signature="510:687" ph="{...}" />
-            <marker date="1560108410972" expanded="true" signature="1067:1166" ph="/* ------------------ ... */" />
-            <marker date="1560108410972" expanded="true" signature="1237:1481" ph="{...}" />
-            <marker date="1560108410972" expanded="true" signature="1857:2037" ph="/* ------------------ ... */" />
-            <marker date="1560108410972" expanded="true" signature="2641:2723" ph="{...}" />
-            <marker date="1560108410972" expanded="true" signature="2664:2713" ph="/* show errorMessage to user ... */" />
-            <marker date="1560108410972" expanded="true" signature="2783:4768" ph="{...}" />
-            <marker date="1560108410972" expanded="true" signature="2809:3408" ph="{...}" />
-            <marker date="1560108410972" expanded="true" signature="2951:3060" ph="{...}" />
-            <marker date="1560108410972" expanded="true" signature="3341:3393" ph="/* Do data processing ... */" />
-            <marker date="1560108410972" expanded="true" signature="3450:3827" ph="{...}" />
-            <marker date="1560108410972" expanded="true" signature="3728:3813" ph="{...}" />
-            <marker date="1560108410972" expanded="true" signature="3880:4654" ph="{...}" />
-            <marker date="1560108410972" expanded="true" signature="4468:4540" ph="/* Do some processing with this information ... */" />
-            <marker date="1560108410972" expanded="true" signature="4685:4758" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1222,7 +1195,7 @@
     <entry file="file://$PROJECT_DIR$/tests/unit/IAssertable.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
           <folding>
             <marker date="1560027302849" expanded="true" signature="25:112" ph="{...}" />
             <marker date="1560027302849" expanded="true" signature="63:110" ph="{...}" />
@@ -1527,14 +1500,14 @@
     <entry file="file://$PROJECT_DIR$/tests/TestConsole/TestConsole.csproj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/TestConsole/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3297">
-          <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
+        <state relative-caret-position="331">
+          <caret line="412" lean-forward="true" selection-start-line="412" selection-end-line="412" />
           <folding>
             <marker date="1560108256999" expanded="true" signature="6:119" ph="..." />
             <marker date="1560108256999" expanded="true" signature="142:15162" ph="{...}" />
