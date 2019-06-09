@@ -35,5 +35,7 @@ Introducing a new feature involves more than simply coding the new feature. For 
 * Add unit tests to the LINQtoCSV project, to ensure future code changes don't break your feature.
 
 
+[![threenine logo](http://static.threenine.co.uk/img/github_footer.png)](https://threenine.co.uk/)
+
 
 

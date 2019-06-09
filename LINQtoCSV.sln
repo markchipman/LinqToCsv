@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsoleApplication", "TestConsoleApplication\TestConsoleApplication.csproj", "{C3FE8ACB-688B-47E4-9E62-0EE09B0435E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsole", "tests\TestConsole\TestConsole.csproj", "{C3FE8ACB-688B-47E4-9E62-0EE09B0435E1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQtoCSV", "LINQtoCSV\LINQtoCSV.csproj", "{07058BF9-6F86-40FF-AE33-2A4F89B5758A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "src", "src\LINQtoCSV.csproj", "{07058BF9-6F86-40FF-AE33-2A4F89B5758A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleCode", "SampleCode\SampleCode.csproj", "{EEFD875B-5D48-41F4-80FD-5FAE3725ED83}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQtoCSV.Tests", "LINQtoCSV.Tests\LINQtoCSV.Tests.csproj", "{04EE17CD-E7B3-4D58-BF84-E553F5332A14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tests", "tests\unit\LINQtoCSV.Tests.csproj", "{04EE17CD-E7B3-4D58-BF84-E553F5332A14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{03D1F88F-BFE0-4825-B1A7-32F193F3B42A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A9DDBD10-C4D3-428E-A402-04DF5F1116E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{398ED8FE-E3BB-45F8-A7E7-2EE229E992EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +48,11 @@ Global
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = LINQtoCSV.vsmdi
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07058BF9-6F86-40FF-AE33-2A4F89B5758A} = {03D1F88F-BFE0-4825-B1A7-32F193F3B42A}
+		{04EE17CD-E7B3-4D58-BF84-E553F5332A14} = {A9DDBD10-C4D3-428E-A402-04DF5F1116E3}
+		{EEFD875B-5D48-41F4-80FD-5FAE3725ED83} = {398ED8FE-E3BB-45F8-A7E7-2EE229E992EF}
+		{C3FE8ACB-688B-47E4-9E62-0EE09B0435E1} = {398ED8FE-E3BB-45F8-A7E7-2EE229E992EF}
 	EndGlobalSection
 EndGlobal

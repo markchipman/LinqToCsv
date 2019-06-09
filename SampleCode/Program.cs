@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +28,7 @@ namespace SampleCode
                 FileCultureName = "en-US" // default is the current culture
             };
 
-            IEnumerable<Product> products =
+            var products =
                 cc.Read<Product>("../../TestFiles/products.csv", inputFileDescription);
 
             var productsByName =
