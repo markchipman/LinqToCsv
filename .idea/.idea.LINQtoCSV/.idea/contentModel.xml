@@ -14,30 +14,12 @@
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="LINQtoCSV.sln" t="IncludeFlat" />
-      <e p="SampleCode" t="IncludeRecursive">
-        <e p="Product.cs" t="Include" />
-        <e p="Program.cs" t="Include" />
-        <e p="Properties" t="Include" />
-        <e p="SampleCode.csproj" t="IncludeRecursive" />
-        <e p="TestFiles" t="Include">
-          <e p="products.csv" t="Include" />
-        </e>
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp2.2" t="Include">
-              <e p="SampleCode.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-      </e>
       <e p="packages" t="ExcludeRecursive" />
-      <e p="samples" t="Include" />
       <e p="src" t="IncludeRecursive">
         <e p="CsvColumnAttribute.cs" t="Include" />
         <e p="CsvContext.cs" t="Include" />
-        <e p="CsvFileDescription.cs" t="Include" />
         <e p="CsvInputFormatAttribute.cs" t="Include" />
+        <e p="CsvMetaData.cs" t="Include" />
         <e p="CsvOutputFormatAttribute.cs" t="Include" />
         <e p="CsvStream.cs" t="Include" />
         <e p="DataRow.cs" t="Include" />
@@ -57,35 +39,6 @@
         </e>
       </e>
       <e p="tests" t="Include">
-        <e p="TestConsole" t="IncludeRecursive">
-          <e p="ProductData.cs" t="Include" />
-          <e p="ProductData_DuplicateIndices.cs" t="Include" />
-          <e p="ProductData_MissingFieldIndex.cs" t="Include" />
-          <e p="Program.cs" t="Include" />
-          <e p="Properties" t="Include" />
-          <e p="TestConsole.csproj" t="IncludeRecursive" />
-          <e p="TestDataRow.cs" t="Include" />
-          <e p="TestFiles" t="Include">
-            <e p="badfile_unknownname.csv" t="Include" />
-            <e p="badfile_us_dataerrors.csv" t="Include" />
-            <e p="goodfile_nl.csv" t="Include" />
-            <e p="goodfile_us.csv" t="Include" />
-            <e p="output_anon.csv" t="Include" />
-            <e p="output_bad.csv" t="Include" />
-            <e p="output_names_nl.csv" t="Include" />
-            <e p="output_newdata_names_nl.csv" t="Include" />
-            <e p="output_nonames_us.csv" t="Include" />
-          </e>
-          <e p="Utils.cs" t="Include" />
-          <e p="bin" t="ExcludeRecursive" />
-          <e p="obj" t="ExcludeRecursive">
-            <e p="Debug" t="Include">
-              <e p="netcoreapp2.2" t="Include">
-                <e p="TestConsole.AssemblyInfo.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-        </e>
         <e p="unit" t="IncludeRecursive">
           <e p="CsvContextTests" t="Include">
             <e p="ReadTests.cs" t="Include" />
